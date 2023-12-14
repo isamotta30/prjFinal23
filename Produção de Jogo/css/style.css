@@ -1,11 +1,11 @@
-@font-face {
-    font-family: "Absolute Blonde";
-    src: url("./fonts/Absolute\ Blonde.ttf") format("truetype");
-  }
-  
+p{
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
   @font-face {
-    font-family: "ITC Avant Garde Gothic Std Medium";
-    src: url("./fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Medium.otf") format("truetype");
+    font-family: font;
+
+    src: url(font/Burn.otf);
   }
   
   * {
@@ -27,6 +27,7 @@
     background-image: url("./assets/background.jpeg");
     background-size: cover;
     background-position: center;
+
     background-repeat: no-repeat;
     overflow:auto;
     font-family: "Absolute Blonde", sans-serif;
@@ -219,6 +220,8 @@ h2 {
 }
 
 h3 {
+  font-family: font;
+  -webkit-text-stroke-width: 1px;
     text-transform: uppercase;
     letter-spacing:  1px;
     padding: 0 112px;
